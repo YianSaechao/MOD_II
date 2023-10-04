@@ -1,7 +1,7 @@
 import React from 'react'
 import cloudyImage from '../images/cloudy.png'
 import TemperatureImage from '../images/temperature.png'
-import { UilTemperatureEmpty, UilWind, UilTear } from '@iconscout/react-unicons'
+import { UilTemperatureEmpty, UilWind, UilTear, UilSun, UilSunset, UilTemperaturePlus, UilTemperatureMinus   } from '@iconscout/react-unicons'
 
 
 const Temperature = () => {
@@ -11,7 +11,7 @@ const Temperature = () => {
             <p>Cloudy</p>
         </div>
         <div className="Temperature-Div2">
-            <img src={cloudyImage} alt="cloudy icon" className="Cloudy"/>
+            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="few clouds" />
             <p>50{`\u00b0`}C</p>
             <div className="Temperature-Div3">
                 <div className="Temperature-Div4">
@@ -27,6 +27,20 @@ const Temperature = () => {
                     Wind Speed: 11 km/h
                 </div>
             </div>
+        </div>
+        <div className="Temperature-Div7">
+              <UilSun />  
+              <p>SunRise: 6:45 AM</p>
+              <p>|</p>
+              <UilSunset />  
+              <p>SunSet: 6:45 PM</p>
+              <p>|</p>
+              <UilTemperaturePlus />  
+              <p>High: 72{`\u00b0`}</p>
+              <p>|</p>
+              <UilTemperatureMinus />  
+              <p>Low: 55{`\u00b0`}</p>
+              <p>|</p>
         </div>
     </div>
   )

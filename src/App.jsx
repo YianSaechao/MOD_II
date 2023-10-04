@@ -4,6 +4,7 @@ import HeaderButtons from './components/HeaderButton'
 import Inputs from './components/Inputs'
 import DateTime from './components/DateTime'
 import Temperature from './components/Temperature'
+import Forecast from './components/Forecast'
 
 
 
@@ -16,7 +17,9 @@ function App() {
       <Inputs/>
       <DateTime/>
       <Temperature/>
-
+      <Forecast title="Hourly Forecast" />
+      <Forecast title="Daily Forecast" />
+      <Forecast title="Weekly Forecast" />
     </div>
   )
 }
