@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  background: linear-gradient(to bottom, #97e4fb, #101cf4);
+}
+
+.Header-Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Inputs-Div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Inputs-Div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+img {
+  height: 30px;
+  width: 30px;
+  margin: 20px
+}
+.Cloudy {
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+}
+.DateTime-Div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Temperature-Div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Temperature-Div2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.Temperature-Div3 {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+}
